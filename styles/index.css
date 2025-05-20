@@ -25,16 +25,80 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    gap: 5px;
 }
+
 
 .hero-content{
     width: 80%;
     margin: auto;
 }
 
+.main{
+    font-size: 2.5rem;
+    font: bold;
+    font-weight: 400;
+    display: flex;
+    color: white;
+    
+}
+
+.main-x{
+    font-size: 2.5rem;
+    font: bold;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.speech-bubble{
+    background-color: #f0f0f0;
+    border-radius: 7px;
+    padding: 6px;
+    position: relative;
+    width: 65px;
+    font-size: x-small;
+    color:  #0779E4;
+    font-weight: 700;
+}
+.button-a{
+    background-color: #0779E4;
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+    font-size: x-small;
+    font-weight: 700;
+}
+.button{
+    background-color: white;
+    color: #0779E4;
+    padding: 15px;
+    border-radius:3px ;
+    font-size: x-small;
+    font-weight: 700;
+}
+.buttons{
+    margin-bottom: 20px;
+}
+.arrow-1{
+    padding: 10px;
+}
+.arrow-2{
+    padding: 10px;
+}
+
+.social{
+    font-size: small;
+    color: white;
+    font-weight: 600;
+}
+
 .bio{
     width: 60%;
-    line-height: 2.5;
+    line-height: 1.5;
+    font-size: small;
+    color: white;
+    margin-bottom: 20px;
 }
 .text-white{
     color: white;
